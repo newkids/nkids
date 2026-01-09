@@ -1,9 +1,9 @@
 // manager.js - 통합 관리자 (전화번호 오작동 수정됨)
 
-const SHEET_URL = "https://script.google.com/macros/s/AKfycbz68tFmFB7IuCEhLIgnm4RMuqiYlXzdgqDVikGFOODFVuh9wXfdOL4aZ4VFy-7HAsVPjQ/exec";
+const SHEET_URL = "https://script.google.com/macros/s/AKfycby4iVex5JHUx50Oc2ccISb4-l9BPxfoZZApCZmWECXPwXXHbIWrbUUEuXbsMA5J9_7g4g/exec";
 const LOGO_IMAGE_URL = "https://wjsrlfdnd-gif.github.io/nkids-web/logo.png";
-const SUPABASE_URL = "https://chmpykdpiwmotmfenirr.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNobXB5a2RwaXdtb3RtZmVuaXJyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc1MTQ0NDksImV4cCI6MjA4MzA5MDQ0OX0.vL8_JBLEWXgrvjtfcoZ5BeqFiIRhFKrItx47VzDdmjQ";
+const SUPABASE_URL = "https://iajxsiopkecotuygihge.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlhanhzaW9wa2Vjb3R1eWdpaGdlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc5MzQzMjksImV4cCI6MjA4MzUxMDMyOX0.ANtdYEDLWzY4jn_AHSTVKq045JWXoquCSalqukK3Ods";
 
 const DEFAULT_INFO = {
     company: "(주)뉴키즈",
@@ -140,4 +140,5 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!menu.contains(e.target) && !btn.contains(e.target)) menu.classList.remove('active');
         }
     });
+
 });
